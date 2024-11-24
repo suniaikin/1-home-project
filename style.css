@@ -208,6 +208,11 @@ th, td {
     padding: 100px 0;
 }
 
+.account-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .create-account-section .title {
     margin-bottom: 50px;
 }
@@ -227,6 +232,9 @@ th, td {
 form {
     width: 100%;
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 input, select, fieldset, textarea {
@@ -252,9 +260,26 @@ input[type="email"], input[type="password"], input[type="date"], select {
     height: 50px;
 }
 
+.stack, fieldset {
+    display: flex;
+    column-gap: 30px;
+}
+
 fieldset {
     width: 100%;
     padding: 30px 15px;
+}
+
+.fields-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+input[type="email"], input[type="password"], input[type="date"], select {
+    width: 230px;
+    height: 50px;
+    flex-grow: 1;
 }
 
 textarea {
