@@ -78,6 +78,10 @@ button {
     text-transform: uppercase;
 }
 
+.menu-icon {
+    display: none;
+}
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
@@ -374,5 +378,17 @@ small {
         gap: 70px;
     }
 
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .menu {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
 
 }
