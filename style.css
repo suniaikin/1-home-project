@@ -12,6 +12,8 @@ html,
 body {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
+    min-width: 375px;
+
 }
 
 a {
@@ -53,7 +55,6 @@ button {
     padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
 }
 
 /* ================ Стили для Хедера ================ */
@@ -342,6 +343,7 @@ small {
 @media screen and (max-width: 1440px) {
     .main-wrapper {
         flex-direction: column;
+        min-height: auto;
     }
 
     .main-info {
@@ -391,6 +393,19 @@ small {
 
     .menu-icon {
         display: block;
+    }
+
+    account-wrapper {
+        gap: 60px;
+    }
+
+    label {
+        white-space: nowrap;
+    }
+
+    fieldset {
+        flex-wrap: wrap;
+        row-gap: 20px;
     }
 
 }
