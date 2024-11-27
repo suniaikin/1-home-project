@@ -91,7 +91,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    min-height: 800px;
 }
 
 .main-img {
@@ -327,4 +327,23 @@ small {
     font-weight: 400;
     line-height: 22px;
     color: #FFF;
+}
+
+/*====Адаптив-======*/
+
+
+@media screen and (max-width: 1440px) {
+    .main-wrapper {
+        flex-direction: column;
+    }
+
+    .main-info {
+        align-self: flex-start;
+        margin: 100px 0 80px;
+    }
+
+    .main-img {
+        align-self: center;
+    }
+
 }
