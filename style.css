@@ -100,6 +100,8 @@ button {
 
 .main-img {
     align-self: flex-end;
+    max-width: 656px;
+    width: 100%;
 }
 
 .main-title {
@@ -379,7 +381,6 @@ small {
     }
 
 }
-
 
 @media screen and (max-width: 576px) {
 
