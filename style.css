@@ -357,4 +357,22 @@ small {
         ;
     }
 
+    .account-wrapper {
+        flex-direction: column;
+    }
+
+    .create-account-section .text {
+        max-width: unset;
+    }
+
+    form {
+        align-self: center;
+    }
+
+    .account-wrapper {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+
 }
