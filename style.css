@@ -346,4 +346,15 @@ small {
         align-self: center;
     }
 
+    .table {
+        width: 948px;
+    }
+
+    .table-wrapper {
+        overflow-x: auto;
+        width: 100%;
+        max-width: 940px;
+        ;
+    }
+
 }
